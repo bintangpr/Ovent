@@ -1,0 +1,648 @@
+
+/* Navigation */
+.Nav__Wrapper {
+    position: fixed;
+    width:100%;
+    min-width: 100vw;
+    background-color: #C4C4C4;
+    min-height: 8rem;
+    z-index: 10;
+    top:0;
+}
+
+.Nav__Container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Nav__Noline{
+    text-decoration: none;
+}
+
+.Nav__Logo{
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    color: #383838;
+    cursor:pointer;
+}
+
+.Nav__Container ul{
+    list-Style: none;
+}
+
+.Nav__Container li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height:2.1rem;
+    color: #383838;
+    text-decoration: none;
+}
+
+.Nav__Link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height:2.1rem;
+    color: #383838;
+    text-decoration: none;
+}
+
+.Nav__Btn{
+    padding: auto 4rem;
+    border: 1px solid #000;
+    border-radius: 1.5rem;
+    margin-left: 3.8rem;
+    height: 4.8rem;
+    font-size: 1.4rem;
+    width: 13.3rem;
+    cursor: pointer;
+    background-color: #C4C4C4;
+}
+
+/* main section*/
+.Main__Container{
+    min-height:70rem;
+    display: flex;
+    /*background-image: url('./images/Background1.jpg');
+    background-size: 100% 100%;*/
+} 
+
+.Main__Left {
+    width :90%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Main__Judul{
+    font-weight: 600;
+    font-size: 6.4rem;
+    margin-top: 20rem ;
+    width: 52.2rem;
+    height: 19rem;
+    color: #383838;
+}
+
+/* #383838 */
+.Main_Subjudul{
+    font-weight: 400;
+    font-size:1.4rem;
+    color: #383838;
+    width: 52.2rem;
+    margin: 3rem 0;
+}
+
+.Main__Btn{
+    padding: auto 4rem;
+    border: 1px solid #000;
+    border-radius: 1.5rem;
+    height: 4.8rem;
+    font-size: 1.4rem;
+    width: 13.3rem;
+    cursor: pointer;
+}
+
+.Main_Link{
+    text-decoration: none;
+}
+
+/*SearchBar */
+
+.Searchbar__Container{
+    height: 19.5rem;
+    width: 90%;
+    padding:1.3rem;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    display: flex;
+    border: 1px solid #C4C4C4;
+    border-radius:1.5rem;
+    justify-content: space-between;
+}
+
+.Searchbar__Headline{
+    font-weight:500;
+    font-size: 1.8rem;
+    margin: auto 0;
+}
+
+.Searchbar__TeksAtas{
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8px;
+    color: #383838;
+}
+
+.Searchbar__Input{
+    width: 29.2rem;
+    height: 5.7rem;
+    background-color: #C4C4C4;
+    border-radius: 1rem;
+}
+
+.Searchbar__Wrapper{
+    margin: auto 0;
+    
+}
+
+.Searchbar__btn{
+    width: 14.5rem;
+    height: 5.7rem;
+    background-color: #000;
+    color: #C4C4C4;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    margin-right: 2.5rem;
+    text-align: center;
+}
+
+/* Categories */
+
+.Title__Container{
+    width: 90%;
+    margin: 12rem auto 0 auto;
+}
+
+.Title__Container h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    
+}
+
+.Title__Container h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1rem;
+}
+
+.Categories__Card__Container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-decoration: none;
+    
+}
+
+.Categories__Card__Container Link{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.categories_card{
+    width: 36rem;
+    height: 16rem;
+    background-color: #C4C4C4;
+    margin:2.5rem ;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.Link__Clear{
+    text-decoration: none;
+}
+.categories_card__text{
+    padding: 4rem 1rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+    margin: 9.5rem 0 0 1rem;
+    width:min-content;
+    text-decoration: none;
+    color: #4d4d4d;
+    
+}
+
+.Card__Container{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:2rem;
+    width: 90%;
+    margin: 0 auto 6rem auto;
+    text-decoration: none;
+}
+
+.Title__Container h1{
+    margin-bottom: 1.6rem;
+    text-decoration: none;
+}
+
+.Title__Container h2{
+    margin-bottom: 5.3rem;
+    text-decoration: none;
+}
+
+.Cards {
+    margin-top: 1rem;
+    background-color: #C4C4C4;
+    height: 33.6rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #383838;
+    
+}
+
+.View__Container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.View__all{
+    width: 15rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: #C4C4C4;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.PopularBtn{
+    margin: 0 auto;
+
+}
+
+
+/*Konsul Info section*/
+
+.Konsul__Container{
+    width: 90%;
+    margin: 15rem auto;
+    height: 30.8rem;
+    background-color: #C4C4C4;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.Konsul__Left{
+    flex: 2;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.Konsul__Left h1{
+    font-weight: 600;
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 55.2rem;
+    margin-left: 8rem;
+}
+
+.Konsul__Left p{
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    width: 55.2rem;
+    margin-left: 8rem;
+    color: #383838;
+ }
+
+.Konsul__Right{
+    flex: 1;
+    margin: auto;
+}
+
+.Konsul__Right button{
+    background-color: #383838;
+    color:#C4C4C4;
+    width: 32rem;
+    height: 5rem;
+    border-radius: 1rem;
+}
+
+
+/* Know More about us*/
+.KnowMore{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    height: 38.5rem;
+    margin-bottom: 15rem;
+}
+
+.KnowMore__Left{
+    flex:1;
+}
+
+.KnowMore__Right{
+    flex: 2;
+    background-color: #C4C4C4;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+
+.KnowMore__Left h1{
+    font-weight: 600;
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 32.1rem;
+    margin-left: 1rem;
+}
+
+.KnowMore__Left p{
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    width: 36rem;
+    margin-left: 1rem;
+    color: #383838;
+    margin-bottom: 5rem;
+
+}
+
+.KnowMore__Left button{
+    background-color: #C4C4C4;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-left: 1rem ;
+}
+
+/* Login Page & Signup*/ 
+.Form__Container{
+    max-height: 76.8rem;
+    margin: 0 auto;
+    align-items: center; 
+    padding: 4rem;
+}
+
+.Form__Container h1 {
+
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: #000;
+    text-align: center;
+    margin: 1rem auto;
+    width: 40%;
+   
+}
+
+.Form__Wrapper{
+    width: 80%;
+    margin: 5rem auto;
+    height: 50rem;
+    display: flex;
+    
+    
+}
+
+.FormLeft__Wrapper{
+    width: 50%;
+   
+    
+}
+
+.FormLeft__Wrapper h2{
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 48.rem;
+    width: 41.6rem;
+    height: 9.6rem;
+    margin: 1rem auto;
+}
+
+.Form__Right{
+    width: 50%;
+    
+}
+
+.Form__Circle{
+    height: 35rem;
+    width: 35rem;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+}
+
+
+.Form__Box{
+    width: 38.7rem;
+    height: 45.5rem;
+    border: 0.1px solid #D6D6D6;
+    box-sizing: border-box;
+    box-shadow: 0px 0.1rem 1.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.Form__fillWrapper{
+    width: 78%;
+    height: 45.5rem;
+    margin: 5rem auto;
+}
+
+.Form__Display {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    
+}
+
+.Form__Display h3{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+
+
+.Form__Daftar__Btn{
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #000;
+    height: 3.9rem;
+   margin: auto 0;
+   text-decoration: none;
+}
+
+.Form__TextInput{
+    margin-bottom: 2rem;
+}
+
+.Form__TextInput p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.Form__Input{
+    width: 28.7rem;
+    height: 3.6rem;
+    border: 0.1rem solid #000000;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    
+}
+
+.Form__Button{
+    width: 28.7rem;
+    height: 4.5rem;
+    background: #C4C4C4;
+    border-radius: 0.5rem;
+}
+
+.Form__ForgetPass{
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #000;
+    height: 3.9rem;
+   margin: auto 0;
+   text-decoration: none;
+   text-align: end;
+}
+
+.Form__Display_Signup{
+    margin-bottom: 3rem;
+}
+
+.Form__Display_Signup h2{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+}
+
+.Form__Display_Signup h3{
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
+/* Category header product list page*/
+
+.Category__Header__Container{
+    
+    margin-top: auto;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 32.4rem;
+    margin-top: 10rem;
+    padding: 1rem 12rem;
+}
+
+
+.Category__Name__Box {
+    width: 50%;
+    margin:20rem ;
+}
+
+
+.Category__Name__Header {
+    font-weight: 600;
+    height: 18rem;
+    width: min-content;
+    font-size: 60px;
+    line-height: 90px;
+    margin: 6rem;
+}
+
+
+/*Searchbar di Product list */
+
+.Searchbar__Product__Container{
+    margin: 6rem;
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.Searchbar__flex{
+    float: right;
+   
+}
+
+.Searchbar__Product__Wrapper{
+    margin: auto 2rem;
+}
+
+.Searchbar__Product__TeksAtas{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #4d4d4d;
+    line-height: 1.8rem;
+}
+
+.Searchbar__Product__Input{
+    width: 19.3rem;
+    height: 3.8rem;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Page__Number__Container{
+    margin: 6rem auto;
+    width: 50%;
+
+    
+}
+
+.Page__Number__Wrapper{
+width: 30rem;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.Page__Number{
+    width: 4.7rem;
+    height: 4.7rem;
+    border: 0.1rem solid #000000;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    margin: 0 1.1rem;
+
+    
+}
+
+.Category__Small__Wrapper{
+    background-color: #E5E5E5;
+    margin-top: 10rem;
+    height: 9.6rem;
+
+    
+}
+
+.Category__Small__Container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.Category__Small__Container h2{
+    padding-top: 2.5rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
