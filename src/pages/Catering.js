@@ -6,7 +6,7 @@ import Navbar from "../components/navbar"
 import NumberPage from "../components/ProductNumberPage"
 import ProductSearchBar from "../components/ProductSearchBar"
 
-const Popular = () => {
+const Catering = () => {
     return(
         <div>
             <Navbar />
@@ -19,4 +19,4 @@ const Popular = () => {
     )
 }
 
-export default Popular;
+export default Catering;

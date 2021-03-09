@@ -9,7 +9,7 @@ import Item from "./pages/Item";
 import Popular from "./pages/Popular";
 import Rental from "./pages/Rental";
 import Decoration from "./pages/Decoration";
-import Catering from "./pages/Decoration";
+import Catering from "./pages/Catering";
 //privateRout
 //Auth
 
