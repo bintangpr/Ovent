@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import react from 'react'
+import {Link} from 'react-router-dom';
 import "./Styles.css";
 
 
@@ -6,7 +8,7 @@ const CategorySmall = () => {
     return(
         <div className="Category__Small__Wrapper">
             <div className="Category__Small__Container">
-                <h2>Rental</h2>
+                <Link to="/catering"><button> Kembali ke keranjang </button></Link>
             </div>
         </div>
     )

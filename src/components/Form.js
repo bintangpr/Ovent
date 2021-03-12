@@ -1,9 +1,21 @@
-import styled from 'styled-components';
+
+import React,{useState} from 'react'
 import {Link} from "react-router-dom";
+import Ovent from '../api/Ovent';
 import "./Styles.css";
 
 
+
+
 export const LoginForm = () => {
+
+    const [Email, setEmail] = useState("");
+    const [Password, setPassword] = useState("");
+    const [isLoggedin, setLoggedin] = useState(false);
+    
+
+  
+
     return(
         <div className="Form__Box">
             <div className="Form__fillWrapper">

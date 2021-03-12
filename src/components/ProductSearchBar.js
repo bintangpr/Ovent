@@ -8,13 +8,13 @@ const ProductSearchBar = () => {
             
 
             <div className="Searchbar__Product__Wrapper">
-                <p className="Searchbar__Product__TeksAtas">Lokasi Kamu</p>
+                <p className="Searchbar__Product__TeksAtas">Lokasi</p>
                 <div>
                     <input className="Searchbar__Product__Input" type="text" placeholder=""></input>
                 </div>
             </div>
             <div className="Searchbar__Product__Wrapper">
-            <p className="Searchbar__Product__TeksAtas">Barang yang kamu cari</p>
+            <p className="Searchbar__Product__TeksAtas">Cari Product</p>
             <div>
                 <input className="Searchbar__Product__Input" type="text" placeholder=""></input>
 
@@ -22,7 +22,7 @@ const ProductSearchBar = () => {
             </div>
             </div>
 
-            <Link><button className="Searchbar__btn">Cari Barang</button></Link>
+            <Link><button className="Searchbar__btn">Cari</button></Link>
 
 
             

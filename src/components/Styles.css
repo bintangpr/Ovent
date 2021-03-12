@@ -156,7 +156,8 @@ li a{
 .Searchbar__Input{
     width: 29.2rem;
     height: 5.7rem;
-    background-color: #C4C4C4;
+    background-color: #fff;
+    border: 0.1rem solid #DEDBDB ;
     border-radius: 1rem;
 }
 
@@ -166,14 +167,15 @@ li a{
 }
 
 .Searchbar__btn{
-    width: 14.5rem;
-    height: 5.7rem;
-    background-color: #000;
-    color: #C4C4C4;
+    width: 9.6rem;
+    height: 3.8rem;
+    background-color: #67A9FE;
+    color: #fff;
     border: 1px solid transparent;
     border-radius: 1.5rem;
     margin-right: 2.5rem;
     text-align: center;
+    font-size: 1.4rem;
 }
 
 /* Categories */
@@ -212,15 +214,42 @@ li a{
     color: #4d4d4d;
 }
 
-.categories_card{
+.categories__Card__Catering{
     width: 36rem;
     height: 16rem;
-    background-color: #C4C4C4;
+    background-image:url('https://s3-alpha-sig.figma.com/img/8408/1310/bb934a156a6cd719c01820b1373f4550?Expires=1616371200&Signature=NwApS86mZj7DwCToZyZs-Apa1kO~OfuXT6SB3pHSoDWVz~6F3hK4hUSy18YrBwGhlKVdJsWuBuV-ZIeHDxvQY~JiEe57cDdOaxM6fsTfDJ0fa-cDfmH-9wKr-f-PWQ6QmVKGLBPM1-iQo66HgtGaNzbV0vqVIvIJi3UapF5FfgJjdV6mtvPQfwTHnhLuK6SYMiTvnUcZuRkJkBXe5tFpoj53yWjXbz5iFmZHZ9FtkAagC9ed40qfzZ6E2klHjRLZtPRRhoxtvRUWep~Y305lpKN520cbJJJOnAIOqGn38AnnjwCL7jVzjIPdjxsiHLLYzZXWJexQ6PXHAQPpWDsGOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA') ;
+    background-size: 100%;
+    background-position-y: -10px;
     margin:2.5rem ;
     border-radius: 1rem;
     text-decoration: none;
     color: #4d4d4d;
 }
+
+.categories__Card__Rental{
+    width: 36rem;
+    height: 16rem;
+    background-image:url('https://s3-alpha-sig.figma.com/img/3023/237a/d3a914488e1f5768e1c9f5fa2332e05b?Expires=1616371200&Signature=HGLkCOSq-w4TGIwpKrHIq7Hm-DTA9088m6InP9IhzjC7oM~IY5Vh-z3o-c4F3mJ14j2R5qjcOWMtUZnLVMvA4-KcS-U6KvX~ADn1oqOfyyLuh0jU9lNdL~Qb9RTgpHn~Lqar2vfl2ELKpKmu5fLWuDOi6rjjowQbUGalHIVMVxoNR8Cmcieg-5MG69yJhxQ~Tz~SvbpDgcqvHfVO5T3IwubK1CdRPGfKGhFimWlk8JWUy3HEK6fpTV5rUWctzNaDRs3pYKOWvTB42mKjIaBWZo6DtG4w8g3QhrVIZrZ7MR9pNGXN30loeqRgF5ri~gC8GgDvma6I0k4NxTEK9yAWLQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA') ;
+    background-size: 100%;
+    margin:2.5rem ;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.categories__Card__Decoration{
+    width: 36rem;
+    height: 16rem;
+    background-image:url('https://s3-alpha-sig.figma.com/img/ca42/5248/8f15c17483f7511b70bb7f12246086b5?Expires=1616371200&Signature=fGwbSKmYJqy1NPpKYXjXb2QxwqhM2ROFk7p3GH7RfmklfnOuQqUmtAePKbzM3O8XiFTkCl24w-BTAaT01pDxwl1niYrw3z5JTdLtD2zAdapVY4g78zbWz0F3WkgFZ7wseEzrpskaTdRdkE27V2hdoNnQ31V4NkaWzQ-CROvcqxu2WfCkilR3EcvHcc2tZ6eq7L7-oSeJjqXWR0EcQiVm2iddTZpEkM0nNYlSXA4ox3cnpEOCHTESMJC9qxqTnewlD-77S5DZwR5l8qcx91wxP40VkFWflTF-KQuYVhagdci5XdKAcotC1KFr1gt7u4X74Gtg~BKhjMF~iym5hJcGsQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA') ;
+    background-size: 100%;
+    background-position-y: -6rem;
+    margin:2.5rem ;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 .Link__Clear{
     text-decoration: none;
@@ -232,7 +261,7 @@ li a{
     margin: 9.5rem 0 0 1rem;
     width:min-content;
     text-decoration: none;
-    color: #4d4d4d;
+    color: #fff;
     
 }
 
@@ -258,13 +287,58 @@ li a{
 
 .Cards {
     margin-top: 1rem;
-    background-color: #C4C4C4;
+    box-shadow: 1px 1px 10px rgba(196, 196, 196, 0.25);
     height: 33.6rem;
     border-radius: 1rem;
     text-decoration: none;
     color: #383838;
     
 }
+.Cards__Foto{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.Cards__Foto img{
+    border-radius:1rem ;
+    width: 100%;
+}
+
+.Cards__Deskripsi{
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.Cards__Footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cards__Footer__Left h3{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.Cards__Footer__Left h2{
+    font-weight: 600;
+    
+}
+
+.Cards__Footer button{
+    height: 4rem;
+    width: 4rem;
+    margin: auto 0;
+    background-color: #67A9FE;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+
 
 .View__Container{
     width: 90%;
@@ -277,13 +351,15 @@ li a{
     width: 15rem;
     height: 5rem;
     border-radius: 1rem;
-    background-color: #C4C4C4;
+    background-color: #67A9FE;
+    color: #fff;
     font-weight: 500;
     font-size: 1.4rem;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-color: transparent;
     
 }
 
@@ -299,7 +375,7 @@ li a{
     width: 90%;
     margin: 15rem auto;
     height: 30.8rem;
-    background-color: #C4C4C4;
+    background-color: #EFF4F7;
     border-radius: 1rem;
     display: flex;
 }
@@ -335,11 +411,12 @@ li a{
 }
 
 .Konsul__Right button{
-    background-color: #383838;
-    color:#C4C4C4;
+    background-color: #67A9FE;
+    color:#fff;
     width: 32rem;
     height: 5rem;
     border-radius: 1rem;
+    border: 1px solid transparent;
 }
 
 
@@ -353,14 +430,24 @@ li a{
 }
 
 .KnowMore__Left{
-    flex:1;
+    width: 40%;
 }
 
 .KnowMore__Right{
-    flex: 2;
-    background-color: #C4C4C4;
+    width:40%;
     margin-left: 2rem;
     border-radius: 1rem;
+    align-items: center;
+    
+}
+
+.KnowMore__Right img{
+    flex: 1;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    
+    
 }
 
 
@@ -368,7 +455,7 @@ li a{
     font-weight: 600;
     font-size: 3.2rem;
     padding-bottom: 1rem;
-    margin: 0 auto;
+    margin: 1rem auto;
     width: 32.1rem;
     margin-left: 1rem;
 }
@@ -385,11 +472,13 @@ li a{
 }
 
 .KnowMore__Left button{
-    background-color: #C4C4C4;
+    background-color: #67A9FE;
+    color: #fff;
     width: 15rem;
     height: 5rem;
     border-radius: 1rem;
     margin-left: 1rem ;
+    border: 1px solid transparent;
 }
 
 /* Login Page & Signup*/ 
@@ -550,7 +639,7 @@ li a{
 .Category__Header__Container{
     
     margin-top: auto;
-    background-color: #E5E5E5;
+    background-color: #E9F3F9;
     width: 100%;
     height: 32.4rem;
     margin-top: 10rem;
@@ -562,6 +651,7 @@ li a{
     width: 50%;
     margin:20rem ;
 }
+
 
 
 .Category__Name__Header {
@@ -634,7 +724,7 @@ text-align: center;
 }
 
 .Category__Small__Wrapper{
-    background-color: #E5E5E5;
+    background-color: #E9F3F9;
     margin-top: 10rem;
     height: 9.6rem;
 
@@ -647,11 +737,13 @@ text-align: center;
     
 }
 
-.Category__Small__Container h2{
+.Category__Small__Container button{
     padding-top: 2.5rem;
     font-weight: 600;
     font-size: 2.4rem;
     line-height: 3.6rem;
+    background-color: #E9F3F9;
+    border: 1px solid transparent;
 }
 
 /* Detail item */
@@ -659,6 +751,7 @@ text-align: center;
 .DetailMain__Wrapper{
     width: 90%;
     display:inline;
+    
 
 }
 
@@ -666,11 +759,136 @@ text-align: center;
     width: 90%;
     display:flex;
     margin: 0 auto;
+    margin-top: 8rem;;
 }
 
 .DetailMain__Left{
     width: 50%;
     height: 45.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-right: 6rem ;
+}
+
+
+.DetailMain__BigPict{
+    margin: 0 auto;
+    width: 52rem;
+    height: 32.2rem;
+    
+    background-size: 100%;
+   
+}
+
+.DetailMain__BigPict img{
+    margin: 0 auto;
+    height: 32rem;
+    border-radius:0.5rem;
+}
+
+.DetailMain__SmallContainer{
+    height: 10.6rem;
+    display: flex;
+    margin: 0 auto;
+   
+}
+
+.DetailMain__SmallPict{
+    height: 10.6rem;
+    width: 16.7rem;
+    border-radius:0.5rem;
+    background-image: url('https://s3-alpha-sig.figma.com/img/6b57/b170/158b0b17a359ed6cc29f35f0c006f6db?Expires=1616371200&Signature=PBf~cCYHWOnv44tF38zSic1vCD0gfQ9wh6R~QmAfLr1t17xq9f4bzb5T4qLKojDPepfAo6DIYIeOn2PCNfR24RptEDoa7pqIwhFyG4cNE-2TG0JMhBJPWb-S6iIbp~pc-mvZBWsWNO0vdNMFiHVafdtKA7y7j1uc3nbThQcL1YSiS6dZ7rAbxwXkU8TnswVGKO7ki4exx0Gw8RawGTAFZ0QiI~D~JKR7nloG1jSmr~Y-t4zOu1KPOTHnM9oqiuZlwcekcAQH92Lg8i-nazBia962o-PH77W4QSWnI-lwk392lyjA9xj9l1OxuqkgXPKCmM54pJZ5R-mctcovHiZFRQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    background-size: cover;
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.DetailMain__BigContainer{
+    margin: 0 auto;
+}
+
+.DetailMain__ItemName h1{
+    font-size: 4.8rem;
+    font-weight: 600;
+}
+
+.DetailMain__DataItem{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DetailMain__DataItem p{
+font-size: 1.8rem;
+}
+
+.DetailMain__Right{
+    width: 80%;
+}
+
+.DetailMain__Rating{
+    width: 8.4rem;
+    height: 4rem;
+    background-color: #F0DB17 ;
+    padding-top: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.6rem;
+}
+
+.DetailMain_Date__Wrapper{
+    margin: 1rem 0;
+    margin-right: 1.5rem;
+}
+
+.DetailMain_Date__Wrapper h4{
+ font-size: 1.8rem;
+}
+
+.DetailMain_Date__Wrapper input{
+    width: 15rem;
+    height: 5rem;
+    background-color: #E9F3F9;
+    border-radius: 1rem;
+    border-color: transparent;
+    font-size: 1.8rem;
+}
+
+.DetailMain__DateQuantity__Container{
+    display: flex;
+}
+
+.DetailMain_Quantity__Wrapper{
+    margin: 1rem 0;
+    margin-right: 1.5rem;
+}
+
+.DetailMain_Quantity__Wrapper h4{
+    font-size: 1.8rem;
+}
+
+.DetailMain_Quantity__Wrapper input{
+    background-color: #E9F3F9;
+    width: 9.6rem;
+    height: 4.9rem;
+    font-size: 1.8rem;
+}
+
+.Harga__TambahBarang{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Harga__TambahBarang h1{
+    font-size:2.8rem;
+    font-weight: 600;
+}
+
+.Harga__TambahBarang button{
+    height: 5.3rem;
+    width: 18.4rem;
+    background-color: #67A9FE;
+    color: #fff;
+    border-radius: 1rem;
+    border-color: transparent;
 }
